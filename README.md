@@ -8,3 +8,4 @@ Pulls image from PokeAPI: https://raw.githubusercontent.com/PokeAPI/sprites/mast
 TODO:
 - Add a button
 - Add Pokemon name
+- Add Pokemon stats
