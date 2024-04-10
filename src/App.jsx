@@ -3,9 +3,9 @@ import PokemonCard from "./PokemonCard";
 function App() {
   return (
     <>
-      <PokemonCard/>
+      <PokemonCard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

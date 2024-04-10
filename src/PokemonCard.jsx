@@ -1,4 +1,5 @@
 import React from "react";
+import "./PokemonCard.css";
 
 const pokemonNumber = getRandomNumber();
 let pokemonImage = imageURL();
@@ -14,10 +15,10 @@ function imageURL() {
 
 function PokemonCard() {
   return (
-    <>
+    <div className="card">
       <h2>Pokemon #{pokemonNumber}</h2>
-      <img src={pokemonImage}/>
-    </>
+      <img src={pokemonImage} />
+    </div>
   );
 }
 
