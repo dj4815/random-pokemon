@@ -1,17 +1,8 @@
 import React from "react";
 import "./PokemonCard.css";
 
-const pokemonNumber = getRandomNumber();
-let pokemonImage = imageURL();
-
-function getRandomNumber() {
-  return Math.floor(Math.random() * 1025) + 1;
-}
-
-function imageURL() {
-  const pokemonImage = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonNumber}.png`;
-  return pokemonImage;
-}
+const pokemonNumber = Math.floor(Math.random() * 1025) + 1;
+const pokemonImage = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonNumber}.png`;
 
 function PokemonCard() {
   return (
