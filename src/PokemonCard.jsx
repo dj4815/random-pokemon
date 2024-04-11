@@ -15,7 +15,7 @@ function imageURL() {
 
 function PokemonCard() {
   return (
-    <div className="card">
+    <div className="PokemonCard">
       <h2>Pokemon #{pokemonNumber}</h2>
       <img src={pokemonImage} />
     </div>
