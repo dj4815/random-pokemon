@@ -7,7 +7,7 @@ const pokemonImage = `https://raw.githubusercontent.com/PokeAPI/sprites/master/s
 function PokemonCard() {
   return (
     <div className="PokemonCard">
-      <h2>Pokemon #{pokemonNumber}</h2>
+      <h1>Pokemon #{pokemonNumber}</h1>
       <img src={pokemonImage} />
     </div>
   );
