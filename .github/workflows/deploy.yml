@@ -1,9 +1,10 @@
-name: Deploy to GitHub Pages
+name: "Deploy to GitHub Pages"
 
 on:
   push:
     branches:
-      - main # or the branch you want to trigger deployment
+      - master
+      - main
 
 jobs:
   build-and-deploy:
